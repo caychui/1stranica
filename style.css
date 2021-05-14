@@ -19,7 +19,8 @@ header {
     box-shadow: -5px 5px 2px 1px #BF3030;
 }
 
-h1 {
+
+.link-nav {
     text-decoration: none;
     position: flex;
     left:140px;
@@ -28,35 +29,49 @@ h1 {
     border-bottom: 4px solid #00782D;
     color:#00B945 ;
     justify-content: space-around;
-    width: 300px;
 }
 
-h1:hover {
-    color: #A61D00;
+h1 {
+    font-size: 50px;
+    color: #FF2C00;
+    position: relative;
+    top: 30px;
 }
 
-li {
+.text {
     font-size: 20px;
     padding: 10px;
+    position: relative;
+    bottom: 165px;
+    left: 450px;
     background-color: #FFA07A;
     color:#00782D;
-    position: relative;
-    left: 330px;
-    bottom: 60px;
-    width: 300px;
+    width: 270px;
+    height: 170px;
+    boottom: 10px;
 }
 
 .kartinka {
-    bottom: 50px;
     position: relative;
-    left:50px;
+    bottom:150px;
+    border: 6px solid #00782D;
+}
+
+footer {
+    position: relative;
+    bottom: 120px;
+    background-color: #98FB98;
 }
 
 .social img:hover {
     border: 3px solid #FF2C00;
     border-radius: 35%;
 }
+.seti p {
+    color: black;
+}
 
-footer {
-    background-color: #98FB98;
+h1:hover {
+    color: #A61D00;
+}d-color: #98FB98;
 }
